@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    background: dimgray;
+}
+h1{
+    color: darkblue;
+    font-size: 72px;
+}
+#clock{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkblue;
+    display: inline-block;
+    text-align: center;
+    font-size: 48px;
+    border: solid 8px;
+    border-radius: 100px;
+    background-color: darkcyan;
+    padding: 38px;
+}
+#clock > div{
+    padding: 25px;
+    border-radius: 50px;
+    background: darkslategray;
+    display: inline-block;
+}
+.count{
+    padding: 35px;
+    border-radius: 50px;
+    background: lightseagreen;
+    display: inline-block;
+    font-size: 72px;
+}
+.text{
+    padding-top: 10px;
+    font-size: 32px;
+    color: cyan;
+}
+#alert{
+    font-style: italic;
+    color: brown
+}
